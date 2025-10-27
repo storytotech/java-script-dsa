@@ -225,3 +225,43 @@ let totalSales = sales.reduce((a,b) => a+b, 0);
 // Average sales
 let avgSales = totalSales / sales.length;
 console.log(avgSales); // 187.5
+
+
+// # JavaScript Arrays - Practice Problems
+
+// ## **Small / Easy (1-7)**
+// 1. Create an array of 5 numbers and print the first and last element.
+// 2. Create an array of fruits and print all the fruits using a `for` loop.
+// 3. Add a new element at the end of an array using `push()`.
+// 4. Remove the first element of an array using `shift()`.
+// 5. Combine two arrays using the spread operator.
+// 6. Convert the string `"hello"` into an array of characters.
+// 7. Create an array using `Array.of()` containing 3 strings and print it.
+
+// ---
+
+// ## **Medium (8-14)**
+// 8. Create an array of numbers and calculate the sum using `reduce()`.
+// 9. Given an array `[1,2,3,4,5]`, create a new array where each element is multiplied by 2 using `map()`.
+// 10. Filter an array of numbers to get only even numbers.
+// 11. Create a multi-dimensional array `3x3` and print the element at row 2, column 3.
+// 12. Sort an array of numbers in descending order.
+// 13. Find the index of the number `50` in an array `[10, 20, 50, 70]`.
+// 14. Remove 2 elements starting from index 1 using `splice()`.
+
+// ---
+
+// ## **High / Challenging (15-20)**
+// 15. Given an array of objects `[{name: "Ali", age: 23}, {name: "Sara", age: 21}]`, create an array of names only using `map()`.
+// 16. Create an array of numbers and find the average.
+// 17. From an array of products `[ {name: "Laptop", price:500}, {name:"Shirt", price:200} ]`, filter all products with price > 300.
+// 18. Flatten a multi-dimensional array `[[1,2],[3,4],[5,6]]` into a single array.
+// 19. Remove duplicates from an array `[1,2,2,3,3,4]`.
+// 20. Given a 2D array representing seats in a cinema, mark seat `"B2"` as booked by replacing its value with `"Booked"`.
+
+// ---
+
+// **Tips:**  
+// - Use array methods like `push`, `pop`, `shift`, `unshift`, `map`, `filter`, `reduce`, `splice`, `sort`.  
+// - Practice both **1D and 2D arrays**.  
+// - Try to solve without looking at the answers first.  
